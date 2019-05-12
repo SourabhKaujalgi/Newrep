@@ -196,7 +196,7 @@ public class Login_TestCase{
 		System.out.println("..................................");
 	}
 
-	/*@Test(priority = 12, groups = "Smoke")
+	@Test(priority = 12, groups = "Smoke")
 	public static void Verify_Url_DashBoard() {
 		// Actual url
 		String my_url = driver.getCurrentUrl();
@@ -207,7 +207,7 @@ public class Login_TestCase{
 		Assert.assertEquals(my_url, expected_url);
 
 		System.out.println("**************************");
-	}*/
+	}
 
 	@Test(priority = 13, groups = "Smoke")
 	public void verifyApplicationTitle_DashBoard() {
@@ -349,7 +349,7 @@ public class Login_TestCase{
 		driver.findElement(By.xpath("html/body/div[1]/header/nav/div/ul/li/a"))
 				.click();
 		System.out.println(driver.findElement(
-				By.xpath("//p[contains(text(),'Logout successfully')]"))
+				By.xpath("//p[contains(text(),'Logout successfully done')]"))
 				.getText());
 	}
 
