@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="20" failed="0" total="20" passed="0">
+<testng-results skipped="0" failed="2" total="19" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="112" started-at="2019-05-04T05:59:46Z" finished-at="2019-05-04T05:59:46Z">
+  <suite name="Default suite" duration-ms="45562" started-at="2019-08-15T12:50:40Z" finished-at="2019-08-15T12:51:26Z">
     <groups>
       <group name="Resgression">
         <method signature="Login_TestCase.validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="validUsername_Password" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
@@ -27,43 +27,89 @@
       <group name="Unit">
         <method signature="Login_TestCase.Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Click_On_AddUser_Btn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
         <method signature="Login_TestCase.Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Fill_Form" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
-        <method signature="Login_TestCase.clickOn_OperatorBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="clickOn_OperatorBtn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
         <method signature="Login_TestCase.click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="click_OnUser" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
         <method signature="Login_TestCase.getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="getTableData" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
         <method signature="Login_TestCase.logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="logOutBtn" class="TestNgDemo.TestNgMaven.Login_TestCase"/>
       </group> <!-- Unit -->
     </groups>
-    <test name="Test" duration-ms="112" started-at="2019-05-04T05:59:46Z" finished-at="2019-05-04T05:59:46Z">
+    <test name="Default test" duration-ms="45562" started-at="2019-08-15T12:50:40Z" finished-at="2019-08-15T12:51:26Z">
       <class name="TestNgDemo.TestNgMaven.Login_TestCase">
-        <test-method status="FAIL" signature="setup_Browser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="setup_Browser" is-config="true" duration-ms="0" started-at="2019-05-04T11:29:24Z" finished-at="2019-05-04T11:29:24Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="setup_Browser" is-config="true" duration-ms="21040" started-at="2019-08-15T18:20:19Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="Verify_Url()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Verify_Url" duration-ms="33" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url -->
+        <test-method status="PASS" signature="verifyApplicationTitle()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="verifyApplicationTitle" duration-ms="12" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="PASS" signature="verify_Title()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="verify_Title" duration-ms="97" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Title -->
+        <test-method status="PASS" signature="loginsesion()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="loginsesion" duration-ms="20" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsesion -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Username()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Check_PlaceHolder_Username" duration-ms="33" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Username -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Check_PlaceHolder_Password" duration-ms="28" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Password -->
+        <test-method status="PASS" signature="check_Button_color()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="check_Button_color" duration-ms="87" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Button_color -->
+        <test-method status="PASS" signature="check_Links()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="check_Links" duration-ms="54" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links -->
+        <test-method status="PASS" signature="blank_username_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="blank_username_password" duration-ms="311" started-at="2019-08-15T18:20:40Z" finished-at="2019-08-15T18:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_username_password -->
+        <test-method status="PASS" signature="invalidusername_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="invalidusername_password" duration-ms="4411" started-at="2019-08-15T18:20:41Z" finished-at="2019-08-15T18:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidusername_password -->
+        <test-method status="PASS" signature="validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="validUsername_Password" duration-ms="2266" started-at="2019-08-15T18:20:45Z" finished-at="2019-08-15T18:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsername_Password -->
+        <test-method status="FAIL" signature="Verify_Url_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Verify_Url_DashBoard" duration-ms="16" started-at="2019-08-15T18:20:47Z" finished-at="2019-08-15T18:20:47Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'DESKTOP-CSB55GA', ip: '192.168.225.208', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 895b8baf-ed98-4c5d-bdb3-b9b126416b5b]]>
+              <![CDATA[expected [file:///C:/Users/comp/Desktop/Selenium%20Software/Offline%20Website/index.html] but found [file:///C:/Users/comp/Desktop/Selenium%20Software/Offline%20Website/pages/examples/dashboard.html]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'DESKTOP-CSB55GA', ip: '192.168.225.208', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 895b8baf-ed98-4c5d-bdb3-b9b126416b5b
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
-	at TestNgDemo.TestNgMaven.Login_TestCase.setup_Browser(Login_TestCase.java:29)
+              <![CDATA[java.lang.AssertionError: expected [file:///C:/Users/comp/Desktop/Selenium%20Software/Offline%20Website/index.html] but found [file:///C:/Users/comp/Desktop/Selenium%20Software/Offline%20Website/pages/examples/dashboard.html]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TestNgDemo.TestNgMaven.Login_TestCase.Verify_Url_DashBoard(Login_TestCase.java:207)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
@@ -73,127 +119,113 @@ Session ID: 895b8baf-ed98-4c5d-bdb3-b9b126416b5b
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 20 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 35 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup_Browser -->
-        <test-method status="SKIP" signature="Verify_Url()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Verify_Url" duration-ms="5" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Url -->
-        <test-method status="SKIP" signature="verifyApplicationTitle()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="verifyApplicationTitle" duration-ms="3" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyApplicationTitle -->
-        <test-method status="SKIP" signature="verify_Title()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="verify_Title" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_Title -->
-        <test-method status="SKIP" signature="loginsesion()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="loginsesion" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginsesion -->
-        <test-method status="SKIP" signature="Check_PlaceHolder_Username()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Check_PlaceHolder_Username" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Check_PlaceHolder_Username -->
-        <test-method status="SKIP" signature="Check_PlaceHolder_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Check_PlaceHolder_Password" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Check_PlaceHolder_Password -->
-        <test-method status="SKIP" signature="check_Button_color()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="check_Button_color" duration-ms="4" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_Button_color -->
-        <test-method status="SKIP" signature="check_Links()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="check_Links" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_Links -->
-        <test-method status="SKIP" signature="blank_username_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="blank_username_password" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blank_username_password -->
-        <test-method status="SKIP" signature="invalidusername_password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="invalidusername_password" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidusername_password -->
-        <test-method status="SKIP" signature="validUsername_Password()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="validUsername_Password" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validUsername_Password -->
-        <test-method status="SKIP" signature="Verify_Url_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Verify_Url_DashBoard" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Url_DashBoard -->
-        <test-method status="SKIP" signature="verifyApplicationTitle_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="verifyApplicationTitle_DashBoard" duration-ms="2" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="PASS" signature="verifyApplicationTitle_DashBoard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="verifyApplicationTitle_DashBoard" duration-ms="26" started-at="2019-08-15T18:20:48Z" finished-at="2019-08-15T18:20:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyApplicationTitle_DashBoard -->
-        <test-method status="SKIP" signature="heading_Dashboard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="heading_Dashboard" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="PASS" signature="heading_Dashboard()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="heading_Dashboard" duration-ms="2042" started-at="2019-08-15T18:20:48Z" finished-at="2019-08-15T18:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- heading_Dashboard -->
-        <test-method status="SKIP" signature="click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="click_OnUser" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="PASS" signature="click_OnUser()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="click_OnUser" duration-ms="5163" started-at="2019-08-15T18:20:50Z" finished-at="2019-08-15T18:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_OnUser -->
-        <test-method status="SKIP" signature="getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="getTableData" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="PASS" signature="getTableData()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="getTableData" duration-ms="7847" started-at="2019-08-15T18:20:55Z" finished-at="2019-08-15T18:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTableData -->
-        <test-method status="SKIP" signature="Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Click_On_AddUser_Btn" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="PASS" signature="Click_On_AddUser_Btn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Click_On_AddUser_Btn" duration-ms="2169" started-at="2019-08-15T18:21:03Z" finished-at="2019-08-15T18:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Click_On_AddUser_Btn -->
-        <test-method status="SKIP" signature="Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Fill_Form" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="PASS" signature="Fill_Form()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="Fill_Form" duration-ms="14360" started-at="2019-08-15T18:21:05Z" finished-at="2019-08-15T18:21:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fill_Form -->
-        <test-method status="SKIP" signature="clickOn_OperatorBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="clickOn_OperatorBtn" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOn_OperatorBtn -->
-        <test-method status="SKIP" signature="logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="logOutBtn" duration-ms="1" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="FAIL" signature="logOutBtn()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="logOutBtn" duration-ms="6114" started-at="2019-08-15T18:21:19Z" finished-at="2019-08-15T18:21:25Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Logout successfully done')]"}
+Command duration or timeout: 5.39 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-CSB55GA', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 27074d90-685f-41ca-9690-8ca522ef9463
+*** Element info: {Using=xpath, value=//p[contains(text(),'Logout successfully done')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Logout successfully done')]"}
+Command duration or timeout: 5.39 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-CSB55GA', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 27074d90-685f-41ca-9690-8ca522ef9463
+*** Element info: {Using=xpath, value=//p[contains(text(),'Logout successfully done')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at TestNgDemo.TestNgMaven.Login_TestCase.logOutBtn(Login_TestCase.java:351)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Logout successfully done')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-CSB55GA', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/comp/AppData/Local/Temp/anonymous7771037330437934977webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/comp/AppData/Local/Temp/anonymous7771037330437934977webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutBtn -->
-        <test-method status="SKIP" signature="close_Browse()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="close_Browse" is-config="true" duration-ms="0" started-at="2019-05-04T11:29:46Z" finished-at="2019-05-04T11:29:46Z">
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:TestNgDemo.TestNgMaven.Login_TestCase@1604f19]" name="close_Browse" is-config="true" duration-ms="1124" started-at="2019-08-15T18:21:26Z" finished-at="2019-08-15T18:21:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_Browse -->
       </class> <!-- TestNgDemo.TestNgMaven.Login_TestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
